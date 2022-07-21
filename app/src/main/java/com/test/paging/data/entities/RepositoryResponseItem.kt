@@ -3,7 +3,7 @@ package com.test.paging.data.entities
 
 import com.google.gson.annotations.SerializedName
 
-data class RepositoryRespnseItem(
+data class RepositoryResponseItem(
     @SerializedName("allow_forking")
     val allowForking: Boolean,
     @SerializedName("archive_url")
